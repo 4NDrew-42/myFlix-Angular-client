@@ -20,19 +20,19 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 
 // Components
 import { UserRegistrationFormComponent } from './user-registration-form/user-registration-form.component';
-import { UserLoginFormComponent } from './user-login-form/user-login-form.component';
-import { MovieCardComponent } from './movie-card/movie-card.component';
-import { WelcomePageComponent } from './welcome-page/welcome-page.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { UserProfileComponent } from './user-profile/user-profile.component';
-import { DirectorInfoComponent } from './director-info/director-info.component';
-import { GenreInfoComponent } from './genre-info/genre-info.component';
-import { MovieSynopsisComponent } from './movie-synopsis/movie-synopsis.component';
+//import { UserLoginFormComponent } from './user-login-form/user-login-form.component';
+//import { MovieCardComponent } from './movie-card/movie-card.component';
+//import { WelcomePageComponent } from './welcome-page/welcome-page.component';
+//import { NavbarComponent } from './navbar/navbar.component';
+//import { UserProfileComponent } from './user-profile/user-profile.component';
+//import { DirectorInfoComponent } from './director-info/director-info.component';
+//import { GenreInfoComponent } from './genre-info/genre-info.component';
+//import { MovieSynopsisComponent } from './movie-synopsis/movie-synopsis.component';
 
 const appRoutes: Routes = [
-  { path: 'welcome', component: WelcomePageComponent },
-  { path: 'movies', component: MovieCardComponent },
-  { path: 'profile', component: UserProfileComponent },
+  //{ path: 'welcome', component: WelcomePageComponent },
+  //{ path: 'movies', component: MovieCardComponent },
+  //{ path: 'profile', component: UserProfileComponent },
   { path: '', redirectTo: 'welcome', pathMatch: 'prefix' },
 ];
 
@@ -40,14 +40,14 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     UserRegistrationFormComponent,
-    UserLoginFormComponent,
-    MovieCardComponent,
-    WelcomePageComponent,
-    NavbarComponent,
-    UserProfileComponent,
-    DirectorInfoComponent,
-    GenreInfoComponent,
-    MovieSynopsisComponent,
+    //UserLoginFormComponent,
+    //MovieCardComponent,
+    //WelcomePageComponent,
+    //NavbarComponent,
+    //UserProfileComponent,
+    //DirectorInfoComponent,
+    //GenreInfoComponent,
+    //MovieSynopsisComponent,
   ],
   imports: [
     BrowserModule,
