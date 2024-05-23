@@ -3,8 +3,8 @@ import { FetchApiDataService } from '../fetch-api-data.service';
 
 @Component({
   selector: 'app-user-registration',
-  templateUrl: './user-registration.component.html',
-  styleUrls: ['./user-registration.component.scss'],
+  templateUrl: './user-registration-form.component.html',
+  styleUrls: ['./user-registration-form.component.scss'],
 })
 export class UserRegistrationComponent {
   userDetails = {
